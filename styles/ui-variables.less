@@ -1,0 +1,52 @@
+/*
+Include the standard variables from Mailspring's base theme:
+https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-variables.less
+*/
+@import "base/ui-variables";
+
+@gray-base: #171823;
+@gray-darker: darken(@gray-base, 13.5%);
+@gray-dark: darken(@gray-base, 20%);
+@gray: darken(@gray-base, 33.5%);
+@gray-light: darken(@gray-base, 46.7%);
+@gray-lighter: darken(@gray-base, 92.5%);
+@white: #c7c6cb;
+
+@accent-primary: #2966c3;
+@accent-primary-dark: darken(@accent-primary, 10%);
+
+@background-primary: lighten(#171823, 10%);
+@background-off-primary: lighten(#171823, 10%);
+@background-secondary: darken(@background-primary, 8%);
+@background-tertiary: darken(@background-primary, 12%);
+
+@border-color-primary: darken(@background-primary, 10%);
+@border-color-secondary: darken(@background-secondary, 10%);
+@border-color-tertiary: darken(@background-tertiary, 10%);
+@border-color-divider: @border-color-secondary;
+
+@text-color: #eee;
+@text-color-subtle: fadeout(@text-color, 20%);
+@text-color-very-subtle: fadeout(@text-color, 40%);
+@text-color-inverse: white;
+@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
+@text-color-heading: #fff;
+
+@text-color-link: @accent-primary;
+@text-color-link-hover: @accent-primary-dark;
+@text-color-link-active: @accent-primary-dark;
+
+@btn-default-bg-color: lighten(@background-primary, 5%);
+@dropdown-default-bg-color: #2768ba;
+
+@input-bg: #21559e;
+@input-border: @border-color-divider;
+
+@list-bg: #2768ba;
+@list-border: #2768ba;
+@list-selected-color: @text-color-inverse;
+@list-focused-color: @text-color;
+
+@toolbar-background-color: #171823;
+@panel-background-color: #171823;
